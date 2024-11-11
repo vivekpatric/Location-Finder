@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left .nav-link,
+.navbar-right .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-left .nav-link:hover,
+.navbar-right .nav-link:hover {
+    background-color: grey;
+}
+
+.navbar-left .nav-link {
+    font-size: 18px;
+}
+
+.navbar-right .nav-link {
+    font-size: 16px;
+}
+#getData{
+    background-color: black;
+    color: white;
+    padding: 7px 45px;
+    border-radius: 5px;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+}
+#searchFilter {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+  }
+  
+  #searchFilter2 {
+    margin-right: 5px;
+  }
+  
+  #searchFilter1 {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+.card{
+    border: 2px solid black;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#resultcard{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+#container2{
+  display: none;
+}
